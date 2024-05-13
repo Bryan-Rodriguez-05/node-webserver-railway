@@ -1,4 +1,4 @@
-/*const http = require('http');
+const http = require('http');
 
 http.createServer((req,res) => {
     //req: request es la peticion al server
@@ -18,7 +18,7 @@ http.createServer((req,res) => {
 })
 .listen(8080); //puerto por donde el servidor escuchara las peticiones
 console.log('Escuchando el puerto: ', 8080);
-*/
+
 
 const http = require('http');
 
